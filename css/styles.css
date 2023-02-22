@@ -6,7 +6,7 @@ body {
 h1 {
     font-family: "Montserrat";
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 
@@ -46,4 +46,34 @@ h1 {
 
 .dnd-btn{
     margin: 7% 3% 2% 0%;
+}
+
+/* Image */
+
+.tittle-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-icon {
+    color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
