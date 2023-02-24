@@ -28,7 +28,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .btn-outline-light btn-lg {
@@ -38,6 +38,7 @@ p {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    
 }
 
 /* Navigation bar */
@@ -68,16 +69,17 @@ p {
 /* Image */
 
 .tittle-image {
-    width: 45%;
+    width: 60%;
     transform: rotate(25deg);
     position: absolute;
-    right: 10%;
-    bottom: -30%;
-    border-radius: 21px;
+    right: 30%;
 }
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-icon {
@@ -123,4 +125,43 @@ p {
 .carousel-item {
     padding: 7% 15%;
 }
+
+#pricing {
+    padding: 7% 15%;
+}
+
+.pricing-header {
+    margin-bottom: 4% ;
+}
+
+@media (max-width: 1020px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .tittle-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    padding: 7% 15%;
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-title {
+    margin-bottom: 30px;
+}
+
+#footer {
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 4;
+}
+
 
