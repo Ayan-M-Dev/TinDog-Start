@@ -154,7 +154,7 @@ p {
 }
 
 .cta-title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #footer {
@@ -164,4 +164,7 @@ p {
     line-height: 4;
 }
 
+.foot {
+    padding: 20px;
+}
 
